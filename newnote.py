@@ -36,7 +36,7 @@ safety_settings = [
 model = genai.GenerativeModel(model_name="gemini-1.5-pro-latest",
   generation_config=generation_config,
   safety_settings=safety_settings)
-st.set_page_config(page_title="Q&A Demo")
+st.set_page_config(page_title="Note.AI")
 
 st.title("Note.AI")
 if 'chat_history' not in st.session_state:
